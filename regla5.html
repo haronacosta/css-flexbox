@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Regla # 5 Alineamos elementos en el eje principal con justify-content
+    </title>
+
+    <link rel="stylesheet" href="css/regla5.css" />
+  </head>
+  <body class="body">
+    <div class="page-wrapper">
+      <header class="header">
+        <h2>
+          Regla # 5 Alineamos elementos en el eje principal con justify-content
+        </h2>
+      </header>
+
+      <div class="main-content">
+        <section>
+          <article class="caja1">Caja 1</article>
+          <article class="caja2">Caja 2</article>
+          <article class="caja3">Caja 3</article>
+          <article class="caja4">Caja 4</article>
+          <article class="caja5">Caja 5</article>
+          <article class="caja6">Caja 6</article>
+        </section>
+
+        <div class="notes">
+          <ul class="notes-list">
+
+            <li>
+                La propiedad justify-content ajusta los hijos en el eje principal
+            </li>
+
+
+            <li>
+              El alineamiento se produce luego de que las longitudes y márgenes
+              automáticos son aplicados, lo que significa que, si existe al
+              menos un elemento flexible con flex-grow diferente a 0, no tendrá
+              efecto ya que no habrá espacio disponible.
+            </li>
+
+            <li>
+              /* Alinear items flex desde el comienzo */ justify-content:
+              flex-start;
+            </li>
+
+            <li>
+              /* Alinear items desde el final */ justify-content: flex-end;
+            </li>
+
+            <li>/* Alinear items en el centro */ justify-content: center;</li>
+
+            <li>
+              /* Distribuir items uniformemente El primer item al inicio, el
+              último al final */ justify-content: space-between;
+            </li>
+
+            <li>
+              /* Distribuir items uniformemente Los items tienen el mismo
+              espacio a su alrededor */ justify-content: space-around;
+            </li>
+
+            <li>
+              /* Valores globales */ <br>
+               justify-content: inherit; <br />
+              justify-content: initial; <br />
+              justify-content: unset; <br />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
