@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+li {
+    margin: 1rem 0; 
+}
+
+section {
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid #000;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+[class *= caja] {
+    margin: 0 1rem;
+}
+
+.caja1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.caja2 {
+    background-color: grey;
+    width: 100px;
+    height: 100px 
+}
+
+.caja3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+
+.caja4{
+    background-color:dodgerblue;
+    width: 100px;
+    height: 100px;
+}
+
+
+.caja5{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+
+.caja6{
+    background-color:saddlebrown;
+    width: 100px;
+    height: 100px;
+}

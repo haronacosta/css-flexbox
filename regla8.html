@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Regla # 8 Los hijos flexibles ignoran propiedades como float, clear, vertical-align
+    </title>
+
+    <link rel="stylesheet" href="css/regla8.css" />
+  </head>
+  <body class="body">
+    <div class="page-wrapper">
+      <header class="header">
+        <h2>
+          Regla # 8 Los hijos flexibles ignoran propiedades como float, clear, vertical-align
+        </h2>
+      </header>
+
+      <div class="main-content">
+        <section>
+          <article class="caja1">Caja 1</article>
+          <article class="caja2">Caja 2</article>
+          <article class="caja3">Caja 3</article>
+        </section>
+
+        <div class="notes">
+          <ul class="notes-list">
+              <li>
+                  Los elementos (hijos) en flex-box no son afectados por estas propiedades: 
+                  <ul>
+                      <li>
+                          float
+                      </li>
+
+                      <li>
+                          vertical-align
+                      </li>
+
+                      <li>
+                          clear
+                      </li>
+                      <li>
+                          El elemento padre si se puede ver afectado por estas propiedades
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

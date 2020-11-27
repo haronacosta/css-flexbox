@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Regla # 9 Podemos modificar el tamaño de los hijos con flex-grow, flex-shrink, flx-basis.
+    </title>
+
+    <link rel="stylesheet" href="css/regla9.css" />
+  </head>
+  <body class="body">
+    <div class="page-wrapper">
+      <header class="header">
+        <h2>
+          Regla # 9 Podemos modificar el tamaño de los hijos con flex-grow, flex-shrink, flx-basis.
+        </h2>
+      </header>
+
+      <div class="main-content">
+        <section>
+          <article class="caja1">Caja 1 Caja 1 Caja 1</article>
+          <article class="caja2">Caja 2 Caja 2</article>
+          <article class="caja3">Caja 3</article>
+        </section>
+
+        <div class="notes">
+          <ul class="notes-list">
+            <li>
+              flex-grow: Define el tamaño que crecerá un hijo, en relación a sus demás hermanos, cuando hay un espacio disponible en el contenedor
+            </li>
+
+            <li>
+              Su valor por defecto es 0
+            </li>
+
+            <li>
+              flx-shrink: Define el tamaño de reducción de un hijo en relación a sus demas hermanos, cuando falte espacio en el contenedor, por defecto es 1.
+            </li>
+
+            <li>
+              flex-basis: Define el tamaño inicial del hijo, el valor por defecto es auto.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
