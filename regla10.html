@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regla # 10 Podemos resumir todo en la propiedad flex</title>
+
+    <link rel="stylesheet" href="css/regla10.css" />
+  </head>
+  <body class="body">
+    <div class="page-wrapper">
+      <header class="header">
+        <h2>Regla # 10 Podemos resumior todo en la propiedad flex</h2>
+      </header>
+
+      <div class="main-content">
+        <section>
+          <article class="caja1">Caja 1 Caja 1 Caja 1</article>
+          <article class="caja2">Caja 2 Caja 2</article>
+          <article class="caja3">Caja 3</article>
+        </section>
+
+        <div class="notes">
+          <ul class="notes-list">
+            <li>
+              Se resume así: flex: flex-grow flex-shrink flex-basis <br />
+              ( Ejem: flex: 0 1 100px; )
+            </li>
+
+            <li>
+              Si solo se colocan dos valores el primero sin unidades y el
+              segundo con unidades los valores con para flex-grow y flex-basis.
+            </li>
+
+            <li>
+              Si los dos valores se colocan sin unidades son para flex-grow y
+              flex-shrink
+            </li>
+
+            <li>
+              Un solo valor sin unidads se toma como flex-grow y con unidades se
+              toma para flex-basis
+            </li>
+
+            <li>
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS/flex">Más información aquí</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
